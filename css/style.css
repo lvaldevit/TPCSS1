@@ -1,0 +1,161 @@
+/* TABLE DES STYLES */
+
+    /* INDEX.HTML */
+
+body {
+    margin: 0;
+    background-color: #F6F6F6;
+    font-family: sans-serif;
+    background-image: url(../leave-2572653_960_720.jpg);
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+body p {
+    text-align: justify;
+}
+
+        /* HEADER */
+
+            /* NAVIGATION */
+
+nav {
+    background-color: #359E7B;
+}
+
+nav ul {
+    max-width: 1150px;
+    margin: auto;
+    text-align: right;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+nav ul li a {
+    color: #F6F6F6;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+            /* TITRES H1 ET H2 */
+
+h1 {
+    text-transform: uppercase;
+    color:#359E7B;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    color: #006083;
+}
+
+        /* MAIN */
+
+main {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #006083;
+}
+
+.dateTime {
+    color: grey;
+    font-weight: bold;
+}
+
+main a {
+    display: block;
+    text-align: right;
+    color: #359E7B;
+    pointer-events: stroke;
+}
+
+main a:hover {
+    color: red;
+}
+
+.moreAndMore {
+    display: block;
+    background-color: #359E7B;
+    max-width: 250px;
+    color: #F6F6F6;
+    padding: 15px;
+    margin: 40px auto 40px auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+        /* FOOTER */
+
+footer {
+    background-color: darkgray;
+    padding: 15px;
+    text-align: center;
+}
+
+footer a{
+    color: #FFFFFF;
+}
+
+    /* CONTACT.HTML */
+
+form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+        /* INPUTS */
+
+input, textarea {
+    font-size: 25px;
+    border-bottom-color:#359E7B;
+    border-bottom-width: 2px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #F6f6f6;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+textarea {
+    resize: none;
+    height: 300px;
+    border-color: #359E7B;
+    border-width: 2px;
+}
+
+        /* BOUTON */
+
+.envoi {
+    background-color: #359E7B;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    width: 100%;
+    cursor: pointer;
+}
+
+
